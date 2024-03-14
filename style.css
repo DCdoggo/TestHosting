@@ -1,5 +1,5 @@
 .rotate {
-    animation: rotation 8s infinite linear;
+    animation: rotation 0.1s infinite linear alternate;
   }
   
   @keyframes rotation {
@@ -7,7 +7,18 @@
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(359deg);
+      transform: rotate(720deg);
     }
   }
-  
+
+p
+{
+ border: 1px solid rebeccapurple;
+ padding: 5em; 
+ color: green;
+}
+
+li{
+  color: green;
+  text-align: center;
+}
