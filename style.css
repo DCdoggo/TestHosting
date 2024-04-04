@@ -1,7 +1,27 @@
-.rotate {
-    animation: rotation 0.1s infinite linear alternate;
-  }
+.legoku 
+{
+  /* animation: rotation 100s infinite linear; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  cursor: url("/Images/352_96.png"), auto;
+}
   
+.legoat
+{
+    animation: rotation 100s infinite linear; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.normaltext
+{  
+  margin-left: 20px;
+  color: red;
+  animation: none;
+}
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -23,11 +43,18 @@ h2{
 }
 
 body{
-  cursor: url('../TestHosting/Images/IMG_20240201_143940_938.jpg'), auto;
+  cursor: url("/Images/64_128.png"), auto;
 }
 
+
 li{
+  display: inline-flex;
+  margin-left: 20px;
   color: green;
   text-align: center;
-  animation: rotation 0.1s infinite linear alternate;
+  animation: rotation 10s infinite linear;
+}
+
+#player {
+  display: none;
 }
