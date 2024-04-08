@@ -5,7 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  cursor: url("./Images/352_96.png"), auto;
+  cursor: url("Images/352_96.png"), auto;
 }
   
 .legoat
@@ -43,7 +43,7 @@ h2{
 }
 
 body{
-  cursor: url("./Images/64_128.png"), auto;
+  cursor: url("Images/64_128.png"), auto;
   background-color: black;
 }
 
