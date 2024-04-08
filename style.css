@@ -44,7 +44,9 @@ h2{
 
 body{
   cursor: url("/Images/64_128.png"), auto;
+  background-color: black;
 }
+
 
 
 li{
@@ -58,3 +60,27 @@ li{
 #player {
   display: none;
 }
+
+.item-a {
+  grid-area: header;
+}
+.item-b {
+  grid-area: main;
+}
+.item-c {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+
